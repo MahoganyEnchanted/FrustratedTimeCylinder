@@ -32,8 +32,11 @@ body {
     font-size: 20px;
 }
 
+/* added relative position so links could stay in header*/
 .header div ul {
     list-style-type: none;
+    position: relative;
+    bottom: 50px;
 }
 
 .header div ul li {
@@ -75,6 +78,7 @@ p {
     margin-left: 20px;
 }
 
+/* added position to side bar so it could stay in place*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,6 +88,9 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    position: relative;
+    bottom: 960px;
+    left: 10px;
 }
 
 .benefit-lead {
